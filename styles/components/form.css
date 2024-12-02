@@ -1,0 +1,17 @@
+.form__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.form input[type="textarea"] {
+  padding-left: 10px;
+  flex-grow: 1;
+  height: 60px;
+
+  border: none;
+  border-radius: 5px;
+
+  font-size: 18px;
+  font-family: inherit;
+}
