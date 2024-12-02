@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Native javascipt "Todo - List"</title>
+  </head>
+  <body>
+    <h1>Список дел</h1>
+    <div class="form">
+      <form action="" class="form__inner">
+        <div class="form__block">
+          <h2 class="visually-hidden">Добавления задачи</h2>
+          <input type="textarea" placeholder="Введите задачу" id="add-task" />
+          <button class="button button--add-task" type="submit">
+            Добавить задачу
+          </button>
+        </div>
+
+        <div class="form__block">
+          <h2 class="visually-hidden">Список задач</h2>
+          <div class="todo">
+            <h3>Фильтры</h3>
+            <button class="button" type="button" id="allTasks">
+              Показать все
+            </button>
+            <button class="button" type="button" id="completed">
+              Показать выполненные
+            </button>
+            <button class="button" type="button" id="notCompleted">
+              Показать невыполненные
+            </button>
+            <ul class="todo__list" id="todo-list"></ul>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
