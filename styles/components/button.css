@@ -1,0 +1,40 @@
+.button {
+  padding: 10px;
+  background-color: rgb(64, 135, 222);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.button--add-task {
+  background-image: linear-gradient(to bottom, #86e386, #58b458);
+  margin-left: auto;
+  border: 2px solid #37a837;
+}
+
+.button--add-task:hover {
+  background-image: linear-gradient(to top, rgb(84, 174, 84), #58b458);
+}
+
+.button__cross {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 15px;
+  height: 15px;
+
+  font-size: 18px;
+  background-color: #ffffff00;
+  color: black;
+  background-image: url("./icon-close.svg");
+  background-size: 15px;
+  background-repeat: no-repeat;
+}
+
+.button__cross--hidden {
+  display: none;
+}
