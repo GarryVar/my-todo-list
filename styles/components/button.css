@@ -30,11 +30,23 @@
   font-size: 18px;
   background-color: #ffffff00;
   color: black;
-  background-image: url("./icon-close.svg");
+  background-image: url("../../icon-cross.svg");
   background-size: 15px;
   background-repeat: no-repeat;
 }
 
 .button__cross--hidden {
   display: none;
+}
+
+.button--completed {
+  background-color: brown;
+}
+
+.button--not-completed {
+  background-color: #58769a;
+}
+
+.button--save {
+  background-color: #4caf50;
 }
